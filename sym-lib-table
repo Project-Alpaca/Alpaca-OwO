@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "private")(type "KiCad")(uri "${KIPRJMOD}/private.kicad_sym")(options "")(descr ""))
+  (lib (name "MCU_RaspberryPi")(type "KiCad")(uri "${KIPRJMOD}/MCU_RaspberryPi.kicad_sym")(options "")(descr ""))
+)
