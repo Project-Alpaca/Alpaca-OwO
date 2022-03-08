@@ -8,6 +8,7 @@
     (title "Alpaca-OwO")
     (date "2022-02-27")
     (rev "v1.0")
+    (company "dogtopus")
   )
 
   (lib_symbols

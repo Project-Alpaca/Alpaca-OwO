@@ -5,6 +5,13 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Alpaca-OwO")
+    (date "2022-03-08")
+    (rev "v1.0")
+    (company "dogtopus")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (1 "In1.Cu" signal)
