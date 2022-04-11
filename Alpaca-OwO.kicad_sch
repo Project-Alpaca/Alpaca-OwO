@@ -7,7 +7,7 @@
   (title_block
     (title "Alpaca-OwO")
     (date "2022-02-27")
-    (rev "v1.0")
+    (rev "v1.01")
     (company "dogtopus")
   )
 
@@ -3622,12 +3622,12 @@
     (pin "2" (uuid 0f0401ff-9a6b-4a25-b4d2-f4bd1d46a4ef))
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 46.355 68.58 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 46.355 68.58 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 3c126155-92ea-4212-9983-c5116bfe45bf)
-    (property "Reference" "SW1" (id 0) (at 46.355 61.9592 0))
-    (property "Value" "Reset" (id 1) (at 46.355 64.4961 0))
-    (property "Footprint" "Button_Switch_THT:SW_Tactile_Straight_KSA0Axx1LFTR" (id 2) (at 46.355 63.5 0)
+    (property "Reference" "SW1" (id 0) (at 46.355 60.96 0))
+    (property "Value" "Reset" (id 1) (at 46.355 63.5 0))
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (id 2) (at 46.355 63.5 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 46.355 63.5 0)
@@ -3752,12 +3752,12 @@
     (pin "2" (uuid f9c7099c-506d-4818-acc0-5d65cb4854d2))
   )
 
-  (symbol (lib_id "Switch:SW_Push") (at 208.28 56.515 0) (unit 1)
+  (symbol (lib_id "Switch:SW_Push") (at 208.28 56.515 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 53c22354-630c-466e-b843-a7e0e45672e7)
-    (property "Reference" "SW3" (id 0) (at 208.28 49.8942 0))
-    (property "Value" "BootSel" (id 1) (at 208.28 52.4311 0))
-    (property "Footprint" "Button_Switch_THT:SW_Tactile_Straight_KSA0Axx1LFTR" (id 2) (at 208.28 51.435 0)
+    (property "Reference" "SW3" (id 0) (at 208.28 48.26 0))
+    (property "Value" "BootSel" (id 1) (at 208.28 50.8 0))
+    (property "Footprint" "Button_Switch_THT:SW_PUSH_6mm" (id 2) (at 208.28 51.435 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 208.28 51.435 0)
@@ -4960,13 +4960,13 @@
       (reference "R7") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/3c126155-92ea-4212-9983-c5116bfe45bf"
-      (reference "SW1") (unit 1) (value "Reset") (footprint "Button_Switch_THT:SW_Tactile_Straight_KSA0Axx1LFTR")
+      (reference "SW1") (unit 1) (value "Reset") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/8acb05ec-8539-4ff7-8e45-31727d5278d9"
       (reference "SW2") (unit 1) (value "I2C Pullup") (footprint "Button_Switch_THT:SW_DIP_SPSTx02_Slide_9.78x7.26mm_W7.62mm_P2.54mm")
     )
     (path "/53c22354-630c-466e-b843-a7e0e45672e7"
-      (reference "SW3") (unit 1) (value "BootSel") (footprint "Button_Switch_THT:SW_Tactile_Straight_KSA0Axx1LFTR")
+      (reference "SW3") (unit 1) (value "BootSel") (footprint "Button_Switch_THT:SW_PUSH_6mm")
     )
     (path "/d3893f63-dd1c-4e09-b64e-0a9180cbb629"
       (reference "U1") (unit 1) (value "AMS1117-3.3") (footprint "Package_TO_SOT_SMD:SOT-223-3_TabPin2")
