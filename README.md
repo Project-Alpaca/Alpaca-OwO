@@ -50,14 +50,14 @@ Below is the preferred pin assignment for this board. Note that every pin can be
 | 19 | SPI0 DO |
 | 20 | UART1 TX |
 | 21 | UART1 RX |
-| 22 | L3 Button |
-| 23 | R3 Button |
+| 22 | R3 Button |
+| 23 | L3 Button |
 | 24 | I2C0 SDA |
 | 25 | I2C0 SCL |
-| 26/ADC0 | Analog Stick LX |
-| 27/ADC1 | Analog Stick LY |
-| 28/ADC2 | Analog Stick RX |
-| 29/ADC3 | Analog Stick RY |
+| 26/ADC0 | Analog Stick RY |
+| 27/ADC1 | Analog Stick RX |
+| 28/ADC2 | Analog Stick LY |
+| 29/ADC3 | Analog Stick LX |
 
 ## Terminal block options
 
