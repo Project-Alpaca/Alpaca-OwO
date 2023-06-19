@@ -21,43 +21,43 @@ Below is the preferred pin assignment for this board. Note that every pin can be
 
 ### Pluggable terminal ports
 
-| RP2040 Pin | Purpose |
-| ---------- | ------- |
-| 0 | D-Button Down |
-| 1 | D-Button Up |
-| 2 | D-Button Left |
-| 3 | D-Button Right |
-| 4 | PS Button |
-| 5 | Share Button |
-| 6 | Option Button |
-| 7 | Square Button |
-| 8 | Triangle Button |
-| 9 | R1 Button |
-| 10 | L1 Button |
-| 11 | Cross Button |
-| 12 | Circle Button |
-| 13 | R2 Button |
-| 14 | L2 Button |
+| RP2040 Pin | GP2040 Pin | Label | Purpose |
+| ---------- | ---------- | ----- | ------- |
+| 0 | DPad Down | D | D-Button Down |
+| 1 | DPad Up | U | D-Button Up |
+| 2 | DPad Left | L | D-Button Left |
+| 3 | DPad Right | R | D-Button Right |
+| 4 | A1 | PS | PS Button |
+| 5 | S1 | SHR | Share Button |
+| 6 | S2 | OPT | Option Button |
+| 7 | B3 | SQR | Square Button |
+| 8 | B4 | TRI | Triangle Button |
+| 9 | R1 | R1 |R1 Button |
+| 10 | L1 | L1 | L1 Button |
+| 11 | B1 | XRO | Cross Button |
+| 12 | B2 | CIR | Circle Button |
+| 13 | R2 | R2 | R2 Button |
+| 14 | L2 | L2 | L2 Button |
 
 ### Ext port, I2C quick connect and analog stick port
 
-| RP2040 Pin | Purpose |
-| ---------- | ------- |
-| 15 | Touchpad Click Button |
-| 16 | SPI0 DI |
-| 17 | SPI0 CS |
-| 18 | SPI0 CLK |
-| 19 | SPI0 DO |
-| 20 | UART1 TX |
-| 21 | UART1 RX |
-| 22 | R3 Button |
-| 23 | L3 Button |
-| 24 | I2C0 SDA |
-| 25 | I2C0 SCL |
-| 26/ADC0 | Analog Stick RY |
-| 27/ADC1 | Analog Stick RX |
-| 28/ADC2 | Analog Stick LY |
-| 29/ADC3 | Analog Stick LX |
+| RP2040 Pin | GP2040 Pin | Label | Purpose |
+| ---------- | ---------- | ----- | ------- |
+| 15 | A2 | TP | Touchpad Click Button |
+| 16 | - | DI | SPI0 DI |
+| 17 | - | CS | SPI0 CS |
+| 18 | - | CLK | SPI0 CLK |
+| 19 | - | DO | SPI0 DO |
+| 20 | - | TX | UART1 TX |
+| 21 | - | RX | UART1 RX |
+| 22 | R3 | R3 | R3 Button |
+| 23 | L3 | L3 | L3 Button |
+| 24 | Display | SDA | I2C0 SDA |
+| 25 | Display | SCL | I2C0 SCL |
+| 26/ADC0 | - | RY | Analog Stick RY |
+| 27/ADC1 | - | RX | Analog Stick RX |
+| 28/ADC2 | - | LY | Analog Stick LY |
+| 29/ADC3 | - | LX | Analog Stick LX |
 
 ## Terminal block options
 
