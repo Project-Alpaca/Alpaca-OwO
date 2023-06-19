@@ -49,13 +49,13 @@ Below is the preferred pin assignment for this board. Note that every pin can be
 | 18 | - | CLK | SPI0 CLK |
 | 19 | - | DO | SPI0 DO |
 | 20 | - | TX | UART1 TX |
-| 21 | - | RX | UART1 RX |
+| 21 | - | EXT/RX | UART1 RX |
 | 22 | R3 | R3 | R3 Button |
 | 23 | L3 | L3 | L3 Button |
 | 24 | Display | SDA | I2C0 SDA |
 | 25 | Display | SCL | I2C0 SCL |
 | 26/ADC0 | - | RY | Analog Stick RY |
-| 27/ADC1 | - | RX | Analog Stick RX |
+| 27/ADC1 | - | Stick/RX | Analog Stick RX |
 | 28/ADC2 | - | LY | Analog Stick LY |
 | 29/ADC3 | - | LX | Analog Stick LX |
 
